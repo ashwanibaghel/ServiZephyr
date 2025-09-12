@@ -31,7 +31,7 @@ export default function Pricing() {
     return (
         <section className={styles.section} id="pricing">
             <h2 className={styles.heading}>Simple, Transparent Pricing</h2>
-            <p className={styles.subheading}>Choose the plan that's right for your business. No hidden fees.</p>
+            <p className={styles.subheading}>Choose the plan that&apos;s right for your business. No hidden fees.</p>
             <div className={styles.planGrid}>
                 {plans.map((plan, index) => (
                     <motion.div

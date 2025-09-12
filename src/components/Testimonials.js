@@ -35,7 +35,7 @@ export default function Testimonials() {
                         transition={{ duration: 0.5, delay: index * 0.1 }}
                         viewport={{ once: true }}
                     >
-                        <p className={styles.quote}>"{t.quote}"</p>
+                        <p className={styles.quote}>&quot;{t.quote}&quot;</p>
                         <h3 className={styles.name}>{t.name}</h3>
                         <p className={styles.role}>{t.role}</p>
                     </motion.div>
