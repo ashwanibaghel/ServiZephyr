@@ -1,26 +1,28 @@
-@import "tailwindcss";
+/* src/app/globals.css (Final Biela.dev Dark Theme) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@700;800&display=swap');
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Biela.dev jaisa Color Palette */
+  --dark-navy: #0a192f;        /* Main Background */
+  --light-slate: #a8b2d1;      /* Normal Text */
+  --lightest-slate: #ccd6f6;    /* Heading Text */
+  --accent-green: #64ffda;     /* Highlight/Accent Color */
+  --white: #ffffff;
+  --primary-blue-btn: #1E3A8A; /* Button ke liye Blue */
+  --accent-green-btn: #10B981; /* Button ke liye Green */
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark-navy); /* Gehra Dark Blue Background */
+  color: var(--light-slate);
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--lightest-slate);
+  margin: 0;
 }

@@ -1,0 +1,38 @@
+.section {
+    padding: 100px 5%;
+    text-align: center;
+}
+.heading {
+    font-size: 3rem;
+    color: var(--white);
+    margin-bottom: 60px;
+}
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+.stepCard {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+.stepCard:hover {
+    transform: translateY(-10px);
+    border: 1px solid rgba(100,255,218,0.5);
+}
+.stepTitle {
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+.stepDesc {
+    font-size: 1rem;
+    color: var(--light-grey);
+    line-height: 1.6;
+}

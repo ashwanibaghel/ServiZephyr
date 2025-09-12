@@ -1,0 +1,46 @@
+.section {
+    padding: 100px 5%;
+    text-align: center;
+}
+.heading {
+    font-size: 3rem;
+    color: var(--white);
+    margin-bottom: 60px;
+}
+.faqGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+.faqCard {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 20px 25px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+.faqCard:hover {
+    transform: translateY(-5px);
+    border: 1px solid rgba(100,255,218,0.5);
+}
+.question {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--white);
+    cursor: pointer;
+    padding: 10px 0;
+}
+.answer {
+    font-size: 1rem;
+    color: var(--light-slate);
+    padding-top: 10px;
+    line-height: 1.6;
+}

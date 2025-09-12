@@ -1,0 +1,77 @@
+.section {
+    padding: 100px 5%;
+    text-align: center;
+}
+.heading {
+    font-size: 3rem;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+.subheading {
+    font-size: 1.25rem;
+    color: var(--light-slate);
+    margin-bottom: 60px;
+}
+.planGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+.planCard {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 40px 30px;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+.planCard:hover {
+    transform: translateY(-10px);
+    border: 1px solid rgba(100,255,218,0.5);
+}
+.planName {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+.planDescription {
+    font-size: 1rem;
+    color: var(--light-slate);
+    margin-bottom: 20px;
+}
+.featuresList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.featuresList li {
+    font-size: 1rem;
+    color: var(--light-slate);
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+.featuresList li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: var(--accent-green);
+}
+.ctaButton {
+    padding: 15px 30px;
+    background: linear-gradient(90deg, var(--primary-blue-btn) 0%, var(--accent-green-btn) 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.ctaButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px -8px var(--accent-green-btn);
+}
