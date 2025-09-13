@@ -7,12 +7,12 @@ const testimonials = [
     {
         name: "Rohan Sharma",
         role: "Owner, The Curry House",
-        quote: "ServiZephyr has been a game-changer. We&apos;ve saved over 20% on commissions and our customers love ordering directly on WhatsApp. The loyalty feature is a brilliant touch!"
+        quote: "ServiZephyr has been a game-changer. We have saved over 20% on commissions and our customers love ordering directly on WhatsApp. The loyalty feature is a brilliant touch!"
     },
     {
         name: "Priya Mehta",
         role: "Manager, Brew & Bites Cafe",
-        quote: "The order management dashboard is so simple and intuitive. We&apos;ve reduced our order processing time significantly. Direct payments via UPI have made it seamless for our regulars."
+        quote: "The order management dashboard is so simple and intuitive. We have reduced our order processing time significantly. Direct payments via UPI have made it seamless for our regulars."
     },
     {
         name: "Vikram Singh",
