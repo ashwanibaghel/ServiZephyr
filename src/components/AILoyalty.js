@@ -25,7 +25,7 @@ export default function AILoyalty() {
     return (
         <section className={styles.section} id="ai-loyalty">
             <h2 className={styles.heading}>Optimize Your Loyalty Program with AI</h2>
-            <p className={styles.subheading}>Fill in your restaurant&apos;s details and let our AI provide you with tailored discount and loyalty strategies.</p>
+            <p className={styles.subheading}>Fill in your restaurants details and let our AI provide you with tailored discount and loyalty strategies.</p>
             <motion.form
                 className={styles.form}
                 onSubmit={handleSubmit}
