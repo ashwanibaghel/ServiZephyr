@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Logo */}
         <div className={styles.logoContainer}>
           <Image
-            src="https://i.ibb.co/VcJxgQBM/logo-servizephyr-removebg-preview.png"
+            src="https://i.ibb.co/XmbFfyV/logo-servizephyr-removebg-preview.png"
             alt="ServiZephyr Logo"
             width={150}
             height={50}

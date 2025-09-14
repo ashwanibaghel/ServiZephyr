@@ -34,14 +34,14 @@
     justify-content: center;
 }
 
-.logoOval {
-    position: absolute;
-    width: 200px;   /* logo ke barabar */
-    height: 70px;  /* logo ke barabar */
-    background: #ffffff; /* white with 30% opacity */
-    border-radius: 999px; /* oval shape */
-    z-index: 1;
-}
+/* .logoOval { */
+    /* position: absolute; */
+    /* width: 200px; */
+    /* height: 70px;   */
+    /* background: #ffffff; */
+    /* border-radius: 999px; */
+    /* z-index: 1; */
+/* } */
 
 .logo {
     position: relative;
