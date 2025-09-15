@@ -27,21 +27,21 @@
 /* === Logo with Oval === */
 .logoWrapper {
     position: relative;
-    width: 300px;   /* exactly logo ke equal */
-    height: 100px;  /* exactly logo ke equal */
+    width: 200PX;   /* exactly logo ke equal */
+    height: 70px;  /* exactly logo ke equal */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* .logoOval { */
-    /* position: absolute; */
-    /* width: 200px; */
-    /* height: 70px;   */
-    /* background: #ffffff; */
-    /* border-radius: 999px; */
-    /* z-index: 1; */
-/* } */
+.logoOval {
+    position: absolute;
+    width: 200px;
+    height: 70px;  
+    background: #ffffff;
+    border-radius: 999px;
+    z-index: 1;
+}
 
 .logo {
     position: relative;
