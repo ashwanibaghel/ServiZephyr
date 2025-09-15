@@ -30,8 +30,8 @@ export default function Navbar() {
             <Image
               src="https://i.ibb.co/XmbFfyV/logo-servizephyr-removebg-preview.png"
               alt="ServiZephyr Logo"
-              width={180}
-              height={48}
+              width={300}
+              height={100}
               className={styles.logo}
               priority
             />
