@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import AuthModal from "./AuthModal";
 import styles from "./Navbar.module.css";
+import Link from "next/link";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -39,15 +40,9 @@ export default function Navbar() {
 
           <div className={styles.navRight}>
             <ul className={styles.navLinks}>
-              <li>
-                <a href="/#features">Features</a>
-              </li>
-              <li>
-                <a href="/#pricing">Pricing</a>
-              </li>
-              <li>
-                <a href="/#contact">Contact</a>
-              </li>
+              <li><Link href="/#features">Features</Link></li>
+              <li><Link href="/#pricing">Pricing</Link></li>
+              <li><Link href="/#contact">Contact</Link></li>
             </ul>
 
             {/* Get Started button opens modal */}
