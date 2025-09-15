@@ -23,6 +23,15 @@ async function sendOTPEmail(to, otp) {
             <p>This code will expire in 10 minutes.</p>
            </div>`,
   };
+
+  try {
+    let info = await transporter.sendMail(mailOptions);
+    console.log("✅ Email sent:", info);
+    return info;
+  } catch (err) {
+    console.error("❌ Email send error:", err);  // <- IMPORTANT
+    throw err; // error ko upar pass karo
+  }
   return transporter.sendMail(mailOptions);
 }
 
@@ -42,6 +51,15 @@ async function sendResetEmail(to, link) {
             <p>This link will expire in 15 minutes.</p>
            </div>`,
   };
+
+  try {
+    let info = await transporter.sendMail(mailOptions);
+    console.log("✅ Email sent:", info);
+    return info;
+  } catch (err) {
+    console.error("❌ Email send error:", err);  // <- IMPORTANT
+    throw err; // error ko upar pass karo
+  }
   return transporter.sendMail(mailOptions);
 }
 
